@@ -1,4 +1,9 @@
 
+# Pronote Note Mailer
+
+Le premier mailer pronote pour vous avertir de vos notes.
+
+
 ## FAQ
 
 #### Comment se connecter ?
