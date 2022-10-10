@@ -4,8 +4,6 @@ from time import sleep
 from sendMail import send_mail
 from replit import db
 
-db.clear()
-
 while True:  # infinite loop
     client = pronotepy.Client.qrcode_login({"jeton": os.environ['jeton'],
                                             "login": os.environ['login'],
