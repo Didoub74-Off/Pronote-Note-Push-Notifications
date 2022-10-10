@@ -1,7 +1,7 @@
 
 ## FAQ
 
-#### Comment se connecter
+#### Comment se connecter ?
 
 Pour connecter son compte Pronote aux programme, vous devez fork le Repls et ajouter vos variables d'environnements dans les paramètres tel que ceci:
 
