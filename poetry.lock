@@ -310,6 +310,17 @@ autopep8 = ["autopep8 (>=1.6.0,<1.7.0)"]
 all = ["whatthepatch", "yapf", "rope (>=0.10.5)", "pylint (>=2.5.0)", "pyflakes (>=2.4.0,<2.5.0)", "pydocstyle (>=2.0.0)", "pycodestyle (>=2.8.0,<2.9.0)", "mccabe (>=0.6.0,<0.7.0)", "flake8 (>=4.0.0,<4.1.0)", "autopep8 (>=1.6.0,<1.7.0)"]
 
 [[package]]
+name = "python-pushsafer"
+version = "1.0"
+description = "Comprehensive bindings for the Pushsafer.com notification service"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+requests = ">=1.0"
+
+[[package]]
 name = "pytoolconfig"
 version = "1.2.2"
 description = "Python tool configuration"
@@ -477,7 +488,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "4ceda468c6ce7d0b641f0c244f742d3a912100cd87f29fbe250fdc0a2528f740"
+content-hash = "6a2dbf152b274db913ff7b7abee7bc370815bb6c1a3d403c9f84dd678fbb231d"
 
 [metadata.files]
 aiohttp = []
@@ -506,6 +517,7 @@ pyflakes = []
 pyparsing = []
 python-lsp-jsonrpc = []
 python-lsp-server = []
+python-pushsafer = []
 pytoolconfig = []
 replit = []
 requests = []
